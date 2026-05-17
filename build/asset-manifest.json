@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tonyPortfolio/static/css/main.ca8a8709.css",
+    "main.js": "/tonyPortfolio/static/js/main.dc863b0c.js",
+    "index.html": "/tonyPortfolio/index.html",
+    "main.ca8a8709.css.map": "/tonyPortfolio/static/css/main.ca8a8709.css.map",
+    "main.dc863b0c.js.map": "/tonyPortfolio/static/js/main.dc863b0c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca8a8709.css",
+    "static/js/main.dc863b0c.js"
+  ]
+}
