@@ -13,17 +13,12 @@ export default function Experience() {
         <div className="timeline">
           {content.experience.items.map((item, index) => (
             <div key={index} className="timeline__item">
-              <div className="timeline__marker" aria-hidden="true">
-                <div className="timeline__dot"></div>
-                {index < content.experience.items.length - 1 && (
-                  <div className="timeline__line"></div>
-                )}
-              </div>
+              <div className="timeline__dot" aria-hidden="true"></div>
               <div className="timeline__content">
                 <div className="timeline__header">
-                  <div className="timeline__company-info">
+                  <div>
                     <h3 className="timeline__company">{item.company}</h3>
-                    <span className="timeline__role">{item.role}</span>
+                    <div className="timeline__role">{item.role}</div>
                   </div>
                   <span className="timeline__period">{item.period}</span>
                 </div>

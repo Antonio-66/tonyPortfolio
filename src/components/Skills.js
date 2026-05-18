@@ -54,26 +54,12 @@ export default function Skills() {
                 {skillKeys.map(skillKey => {
                   const level = skillLevels[skillKey];
                   return (
-                    <div key={skillKey} className="skill-card">
-                      <div className="skill-card__header">
-                        <span className="skill-card__name">{content.skills.items[skillKey]}</span>
-                        <span className={`skill-card__level skill-card__level--${level}`}>
-                          {getLevelLabel(level)}
-                        </span>
-                      </div>
-                      <div className="skill-card__bar">
-                        <div
-                          className={`skill-card__bar-fill skill-card__bar-fill--${level}`}
-                          style={{
-                            width: level === 'advanced' ? '85%' : '55%'
-                          }}
-                          role="progressbar"
-                          aria-valuenow={level === 'advanced' ? 85 : 55}
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                        ></div>
-                      </div>
-                    </div>
+                    <span key={skillKey} className="skill-tag">
+                      {content.skills.items[skillKey]}
+                      <span className={`skill-tag__level skill-tag__level--${level}`}>
+                        {getLevelLabel(level)}
+                      </span>
+                    </span>
                   );
                 })}
               </div>

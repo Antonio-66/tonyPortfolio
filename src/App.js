@@ -1,6 +1,6 @@
 import { ThemeProvider } from './context/ThemeContext';
 import { LanguageProvider } from './context/LanguageContext';
-import Navbar from './components/Navbar';
+import Sidebar from './components/Sidebar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
@@ -17,18 +17,20 @@ function App() {
     <ThemeProvider>
       <LanguageProvider>
         <div className="app">
-          <Navbar />
-          <main>
-            <Hero />
-            <About />
-            <Skills />
-            <Projects />
-            <SampleTestCases />
-            <Tools />
-            <Experience />
-            <Contact />
-          </main>
-          <Footer />
+          <Sidebar />
+          <div className="main-content">
+            <main>
+              <Hero />
+              <About />
+              <Skills />
+              <Projects />
+              <SampleTestCases />
+              <Tools />
+              <Experience />
+              <Contact />
+            </main>
+            <Footer />
+          </div>
         </div>
       </LanguageProvider>
     </ThemeProvider>
