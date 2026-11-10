@@ -39,7 +39,7 @@ export default function Skills() {
   };
 
   return (
-    <section id="skills" className="skills" aria-labelledby="skills-title">
+    <section id="skills" className="section skills" aria-labelledby="skills-title">
       <div className="section__container">
         <div className="section__header">
           <h2 id="skills-title" className="section__title">{content.skills.title}</h2>
@@ -50,19 +50,19 @@ export default function Skills() {
               <h3 className="skills__category-title">
                 {content.skills.categories[category] || category}
               </h3>
-              <div className="skills__list">
+              <ul className="skills__list">
                 {skillKeys.map(skillKey => {
                   const level = skillLevels[skillKey];
                   return (
-                    <span key={skillKey} className="skill-tag">
-                      {content.skills.items[skillKey]}
-                      <span className={`skill-tag__level skill-tag__level--${level}`}>
+                    <li key={skillKey} className="skill-row">
+                      <span className="skill-row__name">{content.skills.items[skillKey]}</span>
+                      <span className={`skill-row__level skill-row__level--${level}`}>
                         {getLevelLabel(level)}
                       </span>
-                    </span>
+                    </li>
                   );
                 })}
-              </div>
+              </ul>
             </div>
           ))}
         </div>

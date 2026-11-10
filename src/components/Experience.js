@@ -5,7 +5,7 @@ export default function Experience() {
   const { content } = useContext(LanguageContext);
 
   return (
-    <section id="experience" className="experience" aria-labelledby="experience-title">
+    <section id="experience" className="section experience" aria-labelledby="experience-title">
       <div className="section__container">
         <div className="section__header">
           <h2 id="experience-title" className="section__title">{content.experience.title}</h2>
@@ -28,7 +28,6 @@ export default function Experience() {
                 <ul className="timeline__responsibilities">
                   {item.responsibilities.map((resp, i) => (
                     <li key={i} className="timeline__responsibility">
-                      <span className="timeline__bullet" aria-hidden="true">→</span>
                       {resp}
                     </li>
                   ))}

@@ -5,9 +5,9 @@ export default function SampleTestCases() {
   const { content } = useContext(LanguageContext);
 
   return (
-    <section id="testcases" className="testcases" aria-labelledby="testcases-title">
+    <section id="testcases" className="section testcases" aria-labelledby="testcases-title">
       <div className="section__container">
-        <div className="section__header">
+        <div className="section__header section__header--row">
           <h2 id="testcases-title" className="section__title">{content.sampleTestCases.title}</h2>
           <span className="section__badge">{content.sampleTestCases.badge}</span>
         </div>
@@ -25,7 +25,7 @@ export default function SampleTestCases() {
               <p className="tc-card__description">{tc.description}</p>
 
               <div className="tc-card__section">
-                <h4 className="tc-card__section-title">Preconditions</h4>
+                <h4 className="tc-card__section-title">{content.sampleTestCases.labels.preconditions}</h4>
                 <ul className="tc-card__list">
                   {tc.preconditions.map((p, i) => (
                     <li key={i}>{p}</li>
@@ -34,7 +34,7 @@ export default function SampleTestCases() {
               </div>
 
               <div className="tc-card__section">
-                <h4 className="tc-card__section-title">Steps</h4>
+                <h4 className="tc-card__section-title">{content.sampleTestCases.labels.steps}</h4>
                 <ol className="tc-card__list tc-card__list--ordered">
                   {tc.steps.map((s, i) => (
                     <li key={i}>{s}</li>
@@ -43,7 +43,7 @@ export default function SampleTestCases() {
               </div>
 
               <div className="tc-card__section">
-                <h4 className="tc-card__section-title">Test Data</h4>
+                <h4 className="tc-card__section-title">{content.sampleTestCases.labels.testData}</h4>
                 <div className="tc-card__data">
                   {Object.entries(tc.testData).map(([key, value]) => (
                     <div key={key} className="tc-card__data-row">
@@ -55,7 +55,7 @@ export default function SampleTestCases() {
               </div>
 
               <div className="tc-card__section">
-                <h4 className="tc-card__section-title">Expected Result</h4>
+                <h4 className="tc-card__section-title">{content.sampleTestCases.labels.expected}</h4>
                 <p className="tc-card__expected">{tc.expectedResult}</p>
               </div>
             </article>
