@@ -285,7 +285,7 @@ img { max-width: 100%; height: auto; display: block; }
 .btn-outline { border: 1.5px solid var(--line); color: var(--text); }
 .btn-outline:hover { border-color: var(--text); }
 
-.hero__visual { position: relative; justify-self: end; width: 100%; max-width: 380px; margin-bottom: 2rem; }
+.hero__visual { position: relative; justify-self: end; width: 100%; max-width: 380px; margin-bottom: 8.5rem; }
 
 .hero__photo {
   width: 100%;
@@ -299,7 +299,7 @@ img { max-width: 100%; height: auto; display: block; }
 .test-run {
   position: absolute;
   left: -3.5rem;
-  bottom: -2rem;
+  top: 87%;
   width: min(330px, 92%);
   padding: 1rem 1.15rem 1.05rem;
   border-radius: var(--radius);
@@ -682,7 +682,7 @@ img { max-width: 100%; height: auto; display: block; }
 
   .hero { min-height: auto; padding-top: 5rem; }
   .hero__inner { grid-template-columns: 1fr; }
-  .hero__visual { justify-self: start; max-width: 340px; margin-bottom: 2.5rem; }
+  .hero__visual { justify-self: start; max-width: 340px; margin-bottom: 9rem; }
   .test-run { left: auto; right: -0.5rem; }
 
   .about__grid,
@@ -691,7 +691,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 @media (max-width: 480px) {
   .hero__visual { max-width: 100%; }
-  .test-run { right: 0.75rem; left: 0.75rem; width: auto; bottom: -2.25rem; }
+  .test-run { right: 0.75rem; left: 0.75rem; width: auto; }
   .testcases__grid { grid-template-columns: 1fr; }
   .tc-card { padding: 1.15rem; }
   .tc-card__data-row { flex-direction: column; gap: 0; }
