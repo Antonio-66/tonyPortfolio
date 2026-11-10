@@ -9,8 +9,18 @@ export const content = {
       contact: 'Contacto'
     },
     hero: {
-      headline: 'QA Automation Engineer — De la validación funcional crítica a la automatización con Playwright y TypeScript',
-      sub: 'Automatización con criterio de negocio. Calidad validada en sistemas críticos.',
+      greeting: 'Hola, soy',
+      role: 'QA Automation Engineer en Asunción, Paraguay',
+      intro: 'Valido sistemas de pagos y de nómina donde un error cuesta dinero real, y automatizo con Playwright y TypeScript lo que vale la pena automatizar.',
+      photoAlt: 'Foto de Antonio Trinidad',
+      runLabel: 'Resumen de experiencia como una ejecución de pruebas',
+      run: [
+        'payroll › cálculo de salario neto',
+        'pagos › compensación en AS400',
+        'api › contratos REST con Newman',
+        'regresión › flujos web y mobile'
+      ],
+      runSummary: '4 passed (5+ años en QA)',
       ctaProjects: 'Ver proyectos',
       ctaContact: 'Contactar'
     },
@@ -32,7 +42,8 @@ export const content = {
         performance: 'Performance',
         databases: 'Bases de Datos',
         cicd: 'CI/CD',
-        qaCore: 'QA Core'
+        qaCore: 'QA Core',
+        languages: 'Lenguajes'
       },
       levels: {
         advanced: 'Avanzado',
@@ -61,6 +72,7 @@ export const content = {
     projects: {
       title: 'Proyectos',
       viewOnGithub: 'Ver en GitHub',
+      labels: { context: 'Contexto', testing: 'Tipo de prueba', value: 'Aporte' },
       status: {
         active: 'Activo',
         completed: 'Completado',
@@ -105,6 +117,7 @@ export const content = {
     sampleTestCases: {
       title: 'Casos de Prueba de Ejemplo',
       badge: 'Documentación profesional',
+      labels: { preconditions: 'Precondiciones', steps: 'Pasos', testData: 'Datos de prueba', expected: 'Resultado esperado' },
       cases: [
         {
           id: 'TC-PAY-001',
@@ -207,7 +220,7 @@ export const content = {
         {
           company: 'ITTI',
           role: 'QA Analyst — Payroll & Automation',
-          period: '2023 - Presente',
+          period: 'Sep 2024 – Presente',
           context: 'Empresa de tecnología con foco en soluciones de payroll corporativo para clientes de gran escala.',
           responsibilities: [
             'Diseño y ejecución de pruebas funcionales y de regresión en sistema de payroll con cálculos salariales complejos',
@@ -220,7 +233,7 @@ export const content = {
         {
           company: 'Bancard',
           role: 'QA Analyst — Payments & Mobile',
-          period: '2021 - 2023',
+          period: 'Ene 2024 – Sep 2024',
           context: 'Procesador de pagos electrónicos con operación crítica 24/7, integrando canales digitales con sistemas legacy bancarios.',
           responsibilities: [
             'Validación funcional e integración de sistemas de pagos electrónicos, incluyendo flujos de compensación y conciliación',
@@ -233,7 +246,7 @@ export const content = {
         {
           company: 'Bepsa',
           role: 'QA Tester — Financial Systems',
-          period: '2019 - 2021',
+          period: 'Nov 2021 – Dic 2023',
           context: 'Institución financiera con releases semanales y alta criticidad en la estabilidad de sistemas de core banking.',
           responsibilities: [
             'Ejecución de pruebas funcionales, de aceptación de usuario y regresión para sistemas financieros críticos',
@@ -248,7 +261,7 @@ export const content = {
     contact: {
       title: 'Contacto',
       subtitle: 'Disponible para roles de QA Automation en entornos corporativos.',
-      email: 'antoniotrinidad66@gmail.com',
+      email: 'antoniotrindad66@gmail.com',
       linkedin: 'https://www.linkedin.com/in/antonio-trinidad-6b16891a2',
       github: 'https://github.com/Antonio-66',
       message: '¿Te interesa mi perfil? Escribime y conversamos.'
@@ -268,8 +281,18 @@ export const content = {
       contact: 'Contact'
     },
     hero: {
-      headline: 'QA Automation Engineer — From Critical Functional Validation to Automated Testing with Playwright & TypeScript',
-      sub: 'Automation with business judgment. Quality validated in critical systems.',
+      greeting: "Hi, I'm",
+      role: 'QA Automation Engineer based in Asunción, Paraguay',
+      intro: 'I validate payment and payroll systems where a bug costs real money, and I automate with Playwright and TypeScript what is worth automating.',
+      photoAlt: 'Photo of Antonio Trinidad',
+      runLabel: 'Experience summary shown as a test run',
+      run: [
+        'payroll › net salary calculation',
+        'payments › AS400 settlement',
+        'api › REST contracts with Newman',
+        'regression › web and mobile flows'
+      ],
+      runSummary: '4 passed (5+ years in QA)',
       ctaProjects: 'View Projects',
       ctaContact: 'Contact'
     },
@@ -291,7 +314,8 @@ export const content = {
         performance: 'Performance',
         databases: 'Databases',
         cicd: 'CI/CD',
-        qaCore: 'QA Core'
+        qaCore: 'QA Core',
+        languages: 'Languages'
       },
       levels: {
         advanced: 'Advanced',
@@ -320,6 +344,7 @@ export const content = {
     projects: {
       title: 'Projects',
       viewOnGithub: 'View on GitHub',
+      labels: { context: 'Context', testing: 'Testing', value: 'Value' },
       status: {
         active: 'Active',
         completed: 'Completed',
@@ -364,6 +389,7 @@ export const content = {
     sampleTestCases: {
       title: 'Sample Test Cases',
       badge: 'Professional Documentation',
+      labels: { preconditions: 'Preconditions', steps: 'Steps', testData: 'Test data', expected: 'Expected result' },
       cases: [
         {
           id: 'TC-PAY-001',
@@ -466,7 +492,7 @@ export const content = {
         {
           company: 'ITTI',
           role: 'QA Analyst — Payroll & Automation',
-          period: '2023 - Present',
+          period: 'Sep 2024 – Present',
           context: 'Technology company focused on corporate payroll solutions for large-scale clients.',
           responsibilities: [
             'Designed and executed functional and regression testing on a payroll system with complex salary calculations',
@@ -479,7 +505,7 @@ export const content = {
         {
           company: 'Bancard',
           role: 'QA Analyst — Payments & Mobile',
-          period: '2021 - 2023',
+          period: 'Jan 2024 – Sep 2024',
           context: 'Electronic payment processor with critical 24/7 operation, integrating digital channels with legacy banking systems.',
           responsibilities: [
             'Functional and integration validation of electronic payment systems, including settlement and reconciliation flows',
@@ -492,7 +518,7 @@ export const content = {
         {
           company: 'Bepsa',
           role: 'QA Tester — Financial Systems',
-          period: '2019 - 2021',
+          period: 'Nov 2021 – Dec 2023',
           context: 'Financial institution with weekly releases and high criticality in core banking system stability.',
           responsibilities: [
             'Executed functional, user acceptance, and regression testing for critical financial systems',
@@ -507,7 +533,7 @@ export const content = {
     contact: {
       title: 'Contact',
       subtitle: 'Available for QA Automation roles in corporate environments.',
-      email: 'antoniotrinidad66@gmail.com',
+      email: 'antoniotrindad66@gmail.com',
       linkedin: 'https://www.linkedin.com/in/antonio-trinidad-6b16891a2',
       github: 'https://github.com/Antonio-66',
       message: 'Interested in my profile? Reach out and let\'s talk.'
